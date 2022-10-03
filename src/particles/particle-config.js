@@ -1,5 +1,10 @@
 export const particlesConfig = {
+  
   particles: {
+    fullScreen: {
+      enable: true,
+      zIndex: 0 // or any value is good for you, if you use -1 set `interactivity.detectsOn` to `"window"` if you need mouse interactions
+    },
     number: {
       value: 45,
       density: {
@@ -8,7 +13,7 @@ export const particlesConfig = {
       }
     },
     color: {
-      value: "#000000"
+      value: "#FFFFFF"
     },
     shape: {
       type: "circle",
@@ -30,7 +35,7 @@ export const particlesConfig = {
       random: true,
       anim: {
         enable: true,
-        speed: 1,
+        speed: 0.3,
         opacity_min: 0,
         sync: false
       }
@@ -54,7 +59,7 @@ export const particlesConfig = {
     },
     move: {
       enable: true,
-      speed: 1,
+      speed: 0.5,
       direction: "none",
       random: true,
       straight: false,

@@ -2,13 +2,27 @@ body {
   font-family:'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #64b0ab;
+}
+
+.content {
+  height: 90vh;
+  color: black;
+}
+
+#name {
+  font-size: 80px;
 }
 
 body::-webkit-scrollbar-track {
-  background: transparent;       
+  background: transparent;     
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
+}
+body::-webkit-scrollbar {
+  display: none;
+  scrollbar-width: none; 
 }
