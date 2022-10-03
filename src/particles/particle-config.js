@@ -13,7 +13,7 @@ export const particlesConfig = {
       }
     },
     color: {
-      value: "#FFFFFF"
+      value: "#000000"
     },
     shape: {
       type: "circle",
@@ -31,7 +31,7 @@ export const particlesConfig = {
       }
     },
     opacity: {
-      value: 0.26456299004281125,
+      value: 0.25,
       random: true,
       anim: {
         enable: true,

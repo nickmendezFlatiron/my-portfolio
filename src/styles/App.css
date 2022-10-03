@@ -6,10 +6,13 @@ body {
 }
 
 .content {
-  height: 90vh;
+  height: 95vh;
   color: black;
 }
 
+.text-blk{
+  color: black;
+}
 #name {
   font-size: 80px;
 }
