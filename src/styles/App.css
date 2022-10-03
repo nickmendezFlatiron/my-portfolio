@@ -1,0 +1,14 @@
+body {
+  font-family:'Roboto';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
