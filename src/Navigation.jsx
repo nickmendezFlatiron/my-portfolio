@@ -12,11 +12,11 @@ const Navigation = () => {
       fixed="top"
     >
       <Container >
-        <Navbar.Brand href="#home">Nicholas Mendez</Navbar.Brand>
+        <Navbar.Brand href="#home" className="bg-secondary px-3 rounded-3">Nicholas Mendez</Navbar.Brand>
         <Nav className="ms-auto">
           <Nav.Link href="#about">About</Nav.Link>
           <Nav.Link href="#projects">Projects</Nav.Link>
-          <Nav.Link href="#blogs">Blogs</Nav.Link>
+          <Nav.Link href="#full-stack-skills">Skills</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>
         </Nav>
       </Container>
