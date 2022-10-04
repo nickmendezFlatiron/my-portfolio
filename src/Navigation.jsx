@@ -12,7 +12,7 @@ const Navigation = () => {
       fixed="top"
     >
       <Container >
-        <Navbar.Brand href="#home" className="bg-secondary px-3 rounded-3">Nicholas Mendez</Navbar.Brand>
+        <Navbar.Brand href="#home" className="bg-primary px-3 rounded-3">Nicholas Mendez</Navbar.Brand>
         <Nav className="ms-auto">
           <Nav.Link href="#about">About</Nav.Link>
           <Nav.Link href="#projects">Projects</Nav.Link>

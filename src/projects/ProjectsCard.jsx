@@ -27,24 +27,23 @@ const ProjectsCard = ({project}) => {
   })
 
   return (
-    <Col lg className=" mx-2 rounded-3 p-4 project-card">
-      <Carousel controls={false} fade interval={3000} pause={false}>
+    <Col lg className="project-card p-0">
+      <Carousel controls={false} fade interval={3000} pause={false} className="">
         {carouselItems}
       </Carousel>
-      <h1 className="mt-3">{title}</h1>
-      <h4>{underHeading}</h4>
-      <p className='text-start'>{description}</p>
-      <Row className="justify-content-center">
-        <Col className="col-auto">
-          <a href={links.github}>
+      <Row className="align-content-center p-3">
+        <Col className="d-flex justify-content-center align-items-top">
+
+        <h1 className="me-auto">{title}</h1>
+          <a href={links.github} className="mx-3 icon">
             {githubImg}
           </a>
-        </Col>
-        <Col  className="col-auto">
           <a href={links.website}>
             {webLink}
           </a>
         </Col>
+      <h4>{underHeading}</h4>
+      <p className='text-start'>{description}</p>
       </Row>
     </Col>
   )
