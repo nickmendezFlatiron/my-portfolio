@@ -14,14 +14,23 @@ const Projects = () => {
   
   return (
     <>
-      <Row className=" text-blk text-start align-items-top">   
-        <Col className='mx-2'>
-        <h1 className=' align-text-top text-blk' id="projects">Projects</h1>
-        <p className='fs-4'>Here are my most notable applications I've made.</p>
-        <ProjectTileGrid setProject={setProject}/>
-        </Col>
+    <div>
+      <div className="d-lg-none">
+        <h1 className='text-top text-blk title text-center text-md-start' id="projects">Projects</h1>
+      </div>
+      <Row className=" align-items-top">   
         <ProjectsCard  project={project}/>
+        <Col className='mx-2 order-md-first'>
+          <div className="d-none d-lg-block">
+            <h1 className='text-top text-blk title text-center text-md-start' id="projects">Projects</h1>
+            <span className='fs-3 align-bottom'>Here are my most notable applications I've made. 
+            <strong className='fs-4 text-light'> Click on a project for more info.</strong>
+            </span>
+          </div>
+          <ProjectTileGrid setProject={setProject}/>
+        </Col>
       </Row>
+    </div>
     </>
   )
 }

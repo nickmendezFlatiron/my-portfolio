@@ -20,21 +20,27 @@ body {
 }
 
 .icon:hover , .bg-card:hover {
-  transition: all .05s linear !important;
+  transition: all .075s linear !important;
   filter: drop-shadow( 2px 3px 4px rgb(0 0 0 / 0.4));
-  color: rgba(0, 0, 0, 0.79);
+  color: #E7D000;
   cursor: pointer;
 }
 
 .project-card {
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  box-shadow: 0 0 3rem 0 rgba(0, 0, 0, .2); 
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, .15);
-  backdrop-filter: blur(10px);
+  /* background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(10px); */
+  /* width: auto; */
 }
 
 .text-blk{
   color: black;
+}
+
+.title {
+  font-size: 50px;
+  text-align: start;
 }
 
 

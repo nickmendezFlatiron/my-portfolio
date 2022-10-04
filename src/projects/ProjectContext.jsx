@@ -24,7 +24,7 @@ export const floodMail = {
 export const extrackt = {
   title: "Extrackt",
   underHeading: "A Marketplace for Royalty-Free, Commercially Licensed Audio Samples",
-  description: "Extrackt is an audio sample marketplace , where members download sounds to incorporate into their own songs and recordings. The marketplace , called The Crate, is user curated. Anyone is allowed to contribute their own samples to the marketplace.",
+  description: "Extrackt is an audio sample marketplace. Members buy and sell sounds to incorporate into their own songs and recordings. The marketplace , called The Crate, is user curated. Anyone is allowed to contribute their own samples to the marketplace.",
   images:[main, crate, collection, preview],
   technologies: [],
   links: {

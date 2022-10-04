@@ -27,7 +27,7 @@ const ProjectsCard = ({project}) => {
   })
 
   return (
-    <Col lg className="project-card p-0 mx-2">
+    <Col lg className="project-card p-0 border border-dark border-2 rounded-3">
       <Carousel controls={false} fade interval={3000} pause={false} className="">
         {carouselItems}
       </Carousel>

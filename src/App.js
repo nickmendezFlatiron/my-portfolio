@@ -24,8 +24,8 @@ function App() {
         <Projects />
         <Skills />
       </Container>
+      <Contact />
     </ProjectContext.Provider>
-      {/* <Contact /> */}
     <ParticleBG />
    </>
   );
