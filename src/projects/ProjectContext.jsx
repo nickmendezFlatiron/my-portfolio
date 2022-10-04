@@ -26,7 +26,7 @@ export const extrackt = {
   underHeading: "A Marketplace for Royalty-Free, Commercially Licensed Audio Samples",
   description: "Extrackt is an audio sample marketplace. Members buy and sell sounds to incorporate into their own songs and recordings. The marketplace , called The Crate, is user curated. Anyone is allowed to contribute their own samples to the marketplace.",
   images:[main, crate, collection, preview],
-  technologies: ["React", "JavaScript", "Ruby", "Ruby on Rails", "HTML", "CSS/SCSS", "PostgreSQL", "Bootstrap", "AWS", "Adobe CC"],
+  technologies: ["React", "JavaScript", "Ruby", "Ruby on Rails", "HTML", "CSS/SCSS", "PostgreSQL", "Bootstrap", "AWS", "Adobe CC", "dbdiagram"],
   links: {
     github: "https://github.com/nickmendezFlatiron/extrackt",
     website: "https://extrackt.onrender.com/"

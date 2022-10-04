@@ -28,7 +28,7 @@ const Contact = () => {
       <hr/>
       <Row className="text-center pt-5">
           <h1 className="text-top text-blk title text-center">Contact Me.</h1>
-          <span className='fs-3 align-bottom'>Let's talk more about your projects proposals or career opportunites. </span>     
+          <span className='fs-3 align-bottom'>Let's talk more about your project proposals or career opportunites. </span>     
       </Row>
       <Row className="my-4" >
         <Col className="d-flex justify-content-center text-light align-items-center" >
