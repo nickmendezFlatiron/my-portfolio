@@ -5,9 +5,25 @@ body {
   background-color: #64b0ab;
 }
 
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.bg-card {
+  background-color: rgba(0, 0, 0, 0.114);
+}
+
+
 .content {
   height: 95vh;
   color: black;
+}
+
+.icon:hover , .bg-card:hover {
+  transition: all .05s linear !important;
+  filter: drop-shadow( 2px 3px 4px rgb(0 0 0 / 0.4));
+  color: rgba(0, 0, 0, 0.79);
+  cursor: pointer;
 }
 
 .project-card {
