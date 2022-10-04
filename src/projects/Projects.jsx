@@ -18,7 +18,7 @@ const Projects = () => {
       <div className="d-lg-none">
         <h1 className='text-top text-blk title text-center text-md-start'>Projects</h1>
       </div>
-      <Row className=" align-items-top">   
+      <Row className=" align-items-top my-4">   
         <ProjectsCard  project={project}/>
         <Col className='mx-2 order-md-first'>
           <div className="d-none d-lg-block">
