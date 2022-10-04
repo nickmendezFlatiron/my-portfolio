@@ -35,10 +35,10 @@ const ProjectsCard = ({project}) => {
         <Col className="d-flex justify-content-center align-items-top">
 
         <h1 className="me-auto">{title}</h1>
-          <a href={links.github} className="mx-3">
+          <a href={links.github} className="mx-3" target="_blank">
             {githubImg}
           </a>
-          <a href={links.website} className="ms-3">
+          <a href={links.website} className="ms-3" target="_blank">
             {webLink}
           </a>
         </Col>

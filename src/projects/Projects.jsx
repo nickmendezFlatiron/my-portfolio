@@ -16,7 +16,7 @@ const Projects = () => {
     <>
     <div>
       <div className="d-lg-none">
-        <h1 className='text-top text-blk title text-center text-md-start' id="projects">Projects</h1>
+        <h1 className='text-top text-blk title text-center text-md-start'>Projects</h1>
       </div>
       <Row className=" align-items-top">   
         <ProjectsCard  project={project}/>
