@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col'
 import ProjectContext from './ProjectContext'
 
 const Projects = () => {
-  const [floodMail , extrackt] = useContext(ProjectContext)
+  const [extrackt] = useContext(ProjectContext)
   const [project , setProject] = useState(extrackt)
   
   
@@ -20,7 +20,7 @@ const Projects = () => {
       </div>
       <Row className=" align-items-top my-4">   
         <ProjectsCard  project={project}/>
-        <Col className='mx-2 order-md-first'>
+        <Col className='mx-2 order-md-first' >
           <div className="d-none d-lg-block">
             <h1 className='text-top text-blk title text-center text-md-start'>Projects</h1>
             <span className='fs-3 align-bottom'>Here are my most notable applications I've made. 

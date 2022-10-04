@@ -31,8 +31,8 @@ const ProjectsCard = ({project}) => {
   })
   const renderTechnologies = technologies.map(t => {
     return (
-      <Col key={uuid()} className="text-center">
-       <Card className="tech-tile border border-dark border-2 p-1 m-1">
+      <Col>
+       <Card key={uuid()} className="text-center tech-tile border border-dark border-2 p-1 m-1">
         <Card.Text >
           {t}
         </Card.Text>
@@ -52,7 +52,7 @@ const ProjectsCard = ({project}) => {
   };
 
   return (
-    <Col lg className="project-card p-0 border border-dark border-2 rounded-3" id="projects">
+    <Col lg={6} className="project-card p-0 border border-dark border-2 rounded-3" id="projects">
       <Carousel variant="dark" controls={false} fade interval={3000} pause={false} className="">
         {carouselItems}
       </Carousel>
@@ -70,9 +70,9 @@ const ProjectsCard = ({project}) => {
       <p className='text-start'>{description}</p>
       </Row>
       <Row className="justify-content-around mb-3 mx-2" >
-        {/* <Slider {...settings}>
+        <Slider {...settings}>
           {renderTechnologies}
-        </Slider> */}
+        </Slider>
       </Row>
     </Col>
   )
