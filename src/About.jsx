@@ -8,7 +8,7 @@ const About = () => {
     <Row id="about" className= "pt-5 mt-3 content">
       <Col className="text-blk">
         <h1 className='' id='name'>NICHOLAS <br/> MENDEZ</h1>
-        <h2>Full Stack Developer</h2>
+        <h2 className="text-warning">Software Engineer</h2>
       <h2>I'm a </h2>
       </Col>
     </Row>

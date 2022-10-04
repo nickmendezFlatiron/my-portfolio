@@ -22,9 +22,9 @@ const Projects = () => {
         <ProjectsCard  project={project}/>
         <Col className='mx-2 order-md-first'>
           <div className="d-none d-lg-block">
-            <h1 className='text-top text-blk title text-center text-md-start' id="projects">Projects</h1>
+            <h1 className='text-top text-blk title text-center text-md-start'>Projects</h1>
             <span className='fs-3 align-bottom'>Here are my most notable applications I've made. 
-            <strong className='fs-4 text-light'> Click on a project for more info.</strong>
+            <strong className='fs-4 text-light'> Click on a project for more information.</strong>
             </span>
           </div>
           <ProjectTileGrid setProject={setProject}/>

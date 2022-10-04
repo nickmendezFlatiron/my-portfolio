@@ -19,14 +19,14 @@ function App() {
    <>
     <Navigation />
     <ProjectContext.Provider value={[floodMail, extrackt]}>
-      <Container>
+      <Container >
         <About />
         <Projects />
-        <Skills />
+        {/* <Skills /> */}
+      {/* <Contact /> */}
       </Container>
-      <Contact />
+      <ParticleBG />
     </ProjectContext.Provider>
-    <ParticleBG />
    </>
   );
 }
