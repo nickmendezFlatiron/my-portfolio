@@ -28,6 +28,11 @@ body {
   background-image: linear-gradient(#64b0ab,#64b0abda, transparent) !important;
 }
 
+.headshot {
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+}
 .icon:hover , .bg-card:hover {
   transition: all .075s linear !important;
   filter: drop-shadow( 2px 3px 4px rgb(0 0 0 / 0.4));

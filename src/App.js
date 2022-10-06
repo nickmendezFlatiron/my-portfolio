@@ -19,11 +19,11 @@ function App() {
    <>
     <Navigation />
     <ProjectContext.Provider value={[floodMail, extrackt]}>
-      <Container >
+      <Container className="px-5 px-md-0">
         <About />
         <Projects />
         {/* <Skills /> */}
-      <Contact />
+        <Contact />
       </Container>
       <ParticleBG />
     </ProjectContext.Provider>

@@ -15,7 +15,7 @@ export const floodMail = {
   underHeading: "A Game Theory Based Messaging Platform",
   description: "Every user has complete control over their conversations and data. Flood mail requires no personal information to signup. When a message or conversation is deleted by a flood user , it is deleted forever. For both users involved in the conversation. Delete your account , and all associated data is deleted as well. " ,
   images:[account, home, inbox, thread],
-  technologies: ["React", "JavaScript", "Ruby", "Ruby on Rails", "HTML", "CSS/SCSS", "PostgreSQL", "Bootstrap", "Adobe CC"],
+  technologies: ["React", "JavaScript", "Ruby", "Ruby on Rails", "HTML", "CSS/SCSS", "Bootstrap", "PostgreSQL", "Adobe CC", "Heroku"],
   links: {
     github: "https://github.com/nickmendezFlatiron/flood-mail",
     website: 'https://flood-mail.herokuapp.com'
@@ -24,9 +24,9 @@ export const floodMail = {
 export const extrackt = {
   title: "Extrackt",
   underHeading: "A Marketplace for Royalty-Free, Commercially Licensed Audio Samples",
-  description: "Extrackt is an audio sample marketplace. Members buy and sell sounds to incorporate into their own songs and recordings. The marketplace , called The Crate, is user curated. Anyone is allowed to contribute their own samples to the marketplace.",
+  description: "Extrackt is an audio sample marketplace. Members buy and sell sounds to incorporate into their own songs and recordings. The marketplace , called The Crate, is user curated. All members are allowed to contribute their own samples to the marketplace.",
   images:[main, crate, collection, preview],
-  technologies: ["React", "JavaScript", "Ruby", "Ruby on Rails", "HTML", "CSS/SCSS", "PostgreSQL", "Bootstrap", "AWS", "Adobe CC", "dbdiagram"],
+  technologies: ["React", "JavaScript", "Ruby", "Ruby on Rails", "HTML", "CSS/SCSS", "PostgreSQL", "Bootstrap", "AWS", "Adobe CC", "Render", "dbdiagram"],
   links: {
     github: "https://github.com/nickmendezFlatiron/extrackt",
     website: "https://extrackt.onrender.com/"

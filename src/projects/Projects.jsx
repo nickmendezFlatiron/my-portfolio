@@ -15,15 +15,15 @@ const Projects = () => {
   return (
     <>
     <div>
-      <div className="d-lg-none pt-2">
-        <h1 className='align-text-top text-blk title text-center text-md-start'>Projects</h1>
+      <div className="d-lg-none pt-5">
+        <h1 className='align-text-top text-blk title text-center text-md-start'>Projects.</h1>
       </div>
       <Row className="align-items-top my-4 pt-lg-5" id="projects">   
         <ProjectsCard  project={project}/>
         <Col className='mx-2 order-md-first' >
           <div className="d-none d-lg-block">
             <h1 className='text-top text-blk title text-center text-md-start'>Projects</h1>
-            <span className='fs-3 align-bottom'>Here are my most notable applications I've made. 
+            <span className='fs-3 align-bottom'>Here are my most notable applications I've created. 
             <strong className='fs-4 text-light'> Click on a project for more information.</strong>
             </span>
           </div>
