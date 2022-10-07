@@ -14,7 +14,8 @@ const Projects = () => {
   
   return (
     <>
-      <Row className="align-items-top my-4 pt-lg-5" >   
+      <div className='pt-md-0 mt-md-0 mt-5 pt-5' id="projects"></div>
+      <Row className="align-items-top pt-lg-5" >   
         <ProjectsCard  project={project}/>
         <Col className='mx-2 order-md-first' >
           <div className="d-none d-lg-block">
