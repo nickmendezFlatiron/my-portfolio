@@ -42,7 +42,7 @@ const linkedIn =  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
           <Button 
             variant='dark' 
             rel="noopener noreferrer" 
-            href="www.linkedin.com/in/mendez-nicholas"  
+            href="https://www.linkedin.com/in/mendez-nicholas"  
             className="icon mx-3 align-baseline"
             target="_blank"
             size="sm"

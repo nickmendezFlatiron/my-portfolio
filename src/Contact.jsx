@@ -44,7 +44,7 @@ const Contact = () => {
           <Button 
             variant='dark' 
             rel="noopener noreferrer" 
-            href="www.linkedin.com/in/mendez-nicholas"  
+            href="https://www.linkedin.com/in/mendez-nicholas"  
             className="icon mx-3 align-baseline"
             target="_blank"
           >
