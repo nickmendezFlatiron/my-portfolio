@@ -52,7 +52,11 @@ const ProjectsCard = ({project}) => {
   };
 
   return (
-    <Col lg={6} className="project-card p-0 border border-dark border-2 rounded-3" >
+    <>
+     <div className="d-lg-none pt-md-0 mt-md-0 mt-5 pt-5">
+        <h1 className='align-text-top text-blk title text-center text-md-start pt-md-0 mt-md-0 mt-5 pt-5'>Projects.</h1>
+      </div>
+    <Col lg={6} id="projects" className="project-card px-0 border border-dark border-2 rounded-3" >
       <Carousel variant="dark" controls={false} fade interval={3000} pause={false} className="">
         {carouselItems}
       </Carousel>
@@ -75,6 +79,7 @@ const ProjectsCard = ({project}) => {
         </Slider>
       </Row>
     </Col>
+    </>
   )
 }
 

@@ -16,7 +16,7 @@ const linkedIn =  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
                   </svg>
 
   return (
-    <Row id="about" className= "pt-5 my-3 content">
+    <Row id="about" sm className="pt-5 my-3 content">
       <Col className="text-center text-md-start">
         <Col className="d-md-flex">
           <h1 className='text-blk' id='name'>NICHOLAS <br/> MENDEZ</h1>

@@ -24,7 +24,7 @@ const Contact = () => {
                 </svg>
 
   return (
-    <Container id="contact" className="mt-5 pt-5">
+    <Container id="contact" className="pt-5">
       <hr/>
       <Row className="text-center pt-5">
           <h1 className="text-top text-blk title text-center">Contact Me.</h1>

@@ -14,11 +14,7 @@ const Projects = () => {
   
   return (
     <>
-    <div>
-      <div className="d-lg-none pt-5">
-        <h1 className='align-text-top text-blk title text-center text-md-start'>Projects.</h1>
-      </div>
-      <Row className="align-items-top my-4 pt-lg-5" id="projects">   
+      <Row className="align-items-top my-4 pt-lg-5" >   
         <ProjectsCard  project={project}/>
         <Col className='mx-2 order-md-first' >
           <div className="d-none d-lg-block">
@@ -30,7 +26,6 @@ const Projects = () => {
           <ProjectTileGrid setProject={setProject}/>
         </Col>
       </Row>
-    </div>
     </>
   )
 }
