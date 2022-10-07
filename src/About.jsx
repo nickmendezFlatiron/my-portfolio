@@ -3,6 +3,8 @@ import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 
+import headshot from './assets/headshot.jpg'
+
 const About = () => {
 
   const github = <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22"  fill="currentColor" className="text-warning me-lg-1" viewBox="0 0 16 16">
@@ -20,7 +22,7 @@ const linkedIn =  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
       <Col className="text-center text-md-start">
         <Col className="d-md-flex">
           <h1 className='text-blk' id='name'>NICHOLAS <br/> MENDEZ</h1>
-          <img src="https://via.placeholder.com/10" alt="headshot" className='headshot shadow-sm img-thumbnail ms-md-3'/>
+          <img src={headshot} alt="headshot" className='headshot shadow-sm img-thumbnail ms-md-3'/>
         </Col>
         <h2 className="mt-3 text-light">I develop resourceful solutions for technical problems.</h2>
         <div className='mt-3'>
