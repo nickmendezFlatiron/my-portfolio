@@ -18,7 +18,7 @@ export const floodMail = {
   technologies: ["React", "JavaScript", "Ruby", "Ruby on Rails", "HTML", "CSS/SCSS", "Bootstrap", "PostgreSQL", "Adobe CC", "Heroku"],
   links: {
     github: "https://github.com/nickmendezFlatiron/flood-mail",
-    website: 'https://flood-mail.herokuapp.com'
+    website: 'https://flood-mail.onrender.com/'
   }
 }
 export const extrackt = {
