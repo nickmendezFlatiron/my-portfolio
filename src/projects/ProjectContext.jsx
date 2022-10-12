@@ -13,7 +13,7 @@ import thread from '../assets/flood-mail/thread.png'
 export const floodMail = {
   title: "Flood Mail",
   underHeading: "A Game Theory Based Messaging Platform",
-  description: "Every user has complete control over their conversations and data. Flood mail requires no personal information to signup. When a message or conversation is deleted by a flood user , it is deleted forever. For both users involved in the conversation. Delete your account , and all associated data is deleted as well. " ,
+  description: "Every user has complete control over their conversations and data. Flood mail requires no personal information to signup. When a message or conversation is deleted by a flood user , it is deleted forever. For both users involved in the conversation. Receive real-time chat notifications too! " ,
   images:[account, home, inbox, thread],
   technologies: ["React", "JavaScript", "Ruby", "Ruby on Rails", "HTML", "CSS/SCSS", "Bootstrap", "PostgreSQL", "Adobe CC", "Heroku"],
   links: {

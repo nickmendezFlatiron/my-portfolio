@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import res from './assets/resume.pdf'
+import res from './assets/nicholas-mendez-resume.pdf'
 const Contact = () => {
 
   const resume = <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="text-warning me-lg-1" viewBox="0 0 16 16">

@@ -26,7 +26,12 @@ const linkedIn =  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
         </Col>
         <h2 className="mt-3 text-light">I develop resourceful solutions for technical problems.</h2>
         <div className='mt-3'>
-          {/* <h3>About Me: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde distinctio commodi blanditiis accusantium nulla, rem obcaecati eius architecto amet dignissimos aspernatur porro incidunt, doloremque inventore, iste quibusdam sit voluptate ut! Magni sequi ad, atque asperiores minus veritatis eveniet. Sit, vel.</h3> */}
+          <h3>I've always had an affinity for things which are both artistic and technical.
+            <br/>
+          Experienced in developing full stack web applications using JavaScript, Ruby, Ruby on Rails, React, Bootstrap, PostgreSQL databases, and REST API architecture. 
+          <br/>
+          I'm a self-taught music producer, fitness enthusiast, and swing trader.
+          </h3>
         </div>
         <Col className="justify-content-md-start mt-3">
           <Button 
