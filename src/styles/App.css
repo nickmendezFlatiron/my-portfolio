@@ -32,6 +32,7 @@ body {
   width: 180px;
   height: 180px;
   border-radius: 100px;
+  z-index: 1;
 }
 .icon:hover , .bg-card:hover {
   transition: all .075s linear !important;
