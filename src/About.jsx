@@ -25,14 +25,14 @@ const linkedIn =  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
           <img src={headshot} alt="headshot" className='headshot shadow-sm img-thumbnail ms-md-3'/>
         </Col>
         <h2 className="mt-3 text-light">I develop resourceful solutions for technical problems.</h2>
-        <div className='mt-3'>
+        <Row className='mt-3'>
           <h3>I've always had an affinity for things which are both artistic and technical.
             <br/>
           Experienced in developing full stack web applications using JavaScript, Ruby, Ruby on Rails, React, Bootstrap, PostgreSQL databases, and REST API architecture. 
           <br/>
           I'm a self-taught music producer, fitness enthusiast, and swing trader.
           </h3>
-        </div>
+        </Row>
         <Col className="justify-content-md-start mt-3">
           <Button 
             variant='dark' 

@@ -57,7 +57,7 @@ const ProjectsCard = ({project}) => {
         <h1 className='align-text-top text-blk title text-center text-md-start pt-md-0 pt-5'>Projects.</h1>
       </div>
     <Col lg={6} className="project-card px-0 border border-dark border-2 rounded-3" >
-      <Carousel variant="dark" controls={false} fade interval={3000} pause={false} className="">
+      <Carousel variant="dark" controls={false} fade interval={3000} pause={false} >
         {carouselItems}
       </Carousel>
       <Row className="align-content-center pt-3 px-3">
